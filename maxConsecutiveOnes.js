@@ -1,6 +1,6 @@
 // LEETCODE EXAM // : HIGHEST STREAK IDIOT
 
-function maxConsecutiveOnes (nums ){
+function maxConsecutiveOnes (nums){
 
     let highestStreak = 0
     let currentStreak = 0
@@ -14,10 +14,7 @@ function maxConsecutiveOnes (nums ){
         if (n === 0 ){
             currentStreak = 0
         }
-
-        
     }
-
     return highestStreak 
 
 }

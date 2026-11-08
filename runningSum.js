@@ -4,9 +4,9 @@ const runningSum = (data) => {
     let result = []
     let indexSum = 0
     result.push
-    for (const resetDataLoop of data) {
+    for (const loop of data) {
         
-            indexSum += resetDataLoop
+            indexSum += loop
             result.push(indexSum)
         }
         return result

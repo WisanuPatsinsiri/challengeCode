@@ -3,7 +3,6 @@ const runningSum = (data) => {
     
     let result = []
     let indexSum = 0
-    result.push
     for (const loop of data) {
         
             indexSum += loop
@@ -12,8 +11,6 @@ const runningSum = (data) => {
         return result
     }
     
-
-
 console.log(runningSum([1, 2, 3, 4]))
 console.log(runningSum([1, 1, 1, 1, 1]))
 console.log(runningSum([3, 1, 2, 10, 1]))
